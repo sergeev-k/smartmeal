@@ -1,0 +1,242 @@
+
+@font-face {
+    font-family: 'Avant Garde Gothic C';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/avantgardegothicc.otf') format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avant Garde CTT';
+    font-style: normal;
+    font-weight: 700; // 400
+    src: local('AvantGardeCTT'), local('AvantGardeCTT-Regular'),
+    url("../fonts/avantgardectt.woff")  format('woff'),
+    url("../fonts/avantgardectt.ttf") format('truetype'); 
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avant Garde Gothic ITC - Dm";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ITCAvantGardeGothic.eot");
+    src: url("../fonts/ITCAvantGardeGothic.woff2") format("woff2"),
+        url("../fonts/ITCAvantGardeGothic.woff") format("woff"),
+        url("../fonts/ITCAvantGardeGothic.ttf") format("truetype"); 
+    font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: local('../fonts/Myriad Pro Regular'), local('../fonts/MyriadPro-Regular'),
+		url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$textblack: #40413c;
+$textblacklight: #3d3d3d;
+$textwhite: #fff;
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+code,
+em,
+img,
+s,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+time,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul,
+ul li {
+    list-style: none;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    font-size: 18px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Avant Garde Gothic C', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    color: #000;
+    line-height: 1;
+    position: relative;
+    background-color: #fff;
+}
+.wrapper {
+    max-width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+input:focus,
+.btn:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+body,
+nav,
+ul,
+ol,
+p,
+h1,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    background-color: transparent;
+    text-decoration: none;
+    -webkit-text-decoration-skip: objects
+}
+b,
+strong {
+    font-weight: bolder
+}
+
+small {
+    font-size: 80%
+}
+svg {
+    overflow: hidden;
+}
+.btn {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #466518;
+    font-family: "Avant Garde Gothic ITC - Dm";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 44px 18px 47px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid #ccc;
+    opacity: 0.9;
+    // border-image: linear-gradient(to bottom, #fefefe, #dfe1e4, #bfc6c7, #a2aca7, #8d9086);
+    display: inline-block;
+}
+
+h2{
+    color: #40413c;
+    font-family: "Avant Garde Gothic ITC - Dm";
+    font-size: 33px;
+    text-align: center;
+}
+.vl{
+    margin: 64px 70px 0;
+}
+h3{
+    color: #3d3d3d;
+    font-family: "Avant Garde Gothic ITC - Dm";
+    font-size: 22px;
+}
+h4{
+    color: #3d3d3d;
+    font-family: "Avant Garde Gothic ITC - Dm";
+}
